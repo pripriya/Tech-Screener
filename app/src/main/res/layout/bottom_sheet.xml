@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+
+    <RelativeLayout
+        android:id="@+id/linear_layout_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:elevation="@dimen/z_bottom_sheet"
+        android:paddingTop="20dp"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="80dp">
+
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:text="Tech Screener"
+            android:textColor="@color/color_grey"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_grey"
+            android:id="@+id/view"
+            android:layout_below="@+id/textview"
+            />
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view"
+            android:background="@color/color_white" />
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tech Screener</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Clients</item>
+        <item>Assessors</item>
+        <item>Orders</item>
+        <item>Settings</item>
+    </string-array>
+
+</resources>

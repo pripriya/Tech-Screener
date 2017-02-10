@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A5241B</color>
+    <color name="colorPrimaryDark">#A5241B</color>
+    <color name="colorAccent">#133565</color>
+
+    <color name="color_maroon">#AC281C</color>
+    <color name="color_blue">#133565</color>
+    <color name="color_grey">#C7C8CA</color>
+    <color name="color_black">#000000</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_orange">#F99A00</color>
+    <color name="color_green">#31A343</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_yellow">#FFFF00</color>
+    <color name="color_lightgrey">#CAB77D</color>
+
+    CAB77D
+
+
+</resources>
